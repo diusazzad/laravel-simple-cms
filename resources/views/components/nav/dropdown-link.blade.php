@@ -20,16 +20,16 @@
         </svg>
     </div>
     <div x-show="open" class="text-sm border-l-2 border-gray-800 mx-6 my-2.5 px-2.5 flex flex-col gap-y-1">
-        <a href="{{ url('/admin/users') }}" class="block py-2 px-4 hover:bg-gray-800 hover:text-white rounded">
+        <a href="{{ url('/admin/users') }}" class="block px-4 py-2 rounded hover:bg-gray-800 hover:text-white">
             Users
         </a>
-        <a href="#" class="block py-2 px-4 hover:bg-gray-800 hover:text-white rounded">
+        <a href="" class="block px-4 py-2 rounded hover:bg-gray-800 hover:text-white">
             Clients
         </a>
-        <a href="#" class="block py-2 px-4 hover:bg-gray-800 hover:text-white rounded">
+        <a href="{{ url('/admin/projects') }}" class="block px-4 py-2 rounded hover:bg-gray-800 hover:text-white">
             Projects
         </a>
-        <a href="#" class="block py-2 px-4 hover:bg-gray-800 hover:text-white rounded">
+        <a href="{{ url('/admin/tasks') }}" class="block px-4 py-2 rounded hover:bg-gray-800 hover:text-white">
             Tasks
         </a>
     </div>
